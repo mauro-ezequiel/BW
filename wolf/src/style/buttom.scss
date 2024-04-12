@@ -5,4 +5,27 @@
   font-size: 2em;
   height: 22vh;
   margin-top: 6em;
+
+  .gridb {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    .cont {
+      margin: 0.5em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 576px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
 }

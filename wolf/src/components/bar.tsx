@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Bar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-body-tertiary"
+      className="navbar navbar-expand-md bg-body-tertiary"
       aria-controls="responsive-navbar-nav"
       id="nav"
     >
